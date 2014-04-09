@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name     = 'DBFBProfilePictureView'
   s.version  = '1.5.2'
-  s.platform = :ios, '5.0'
+  s.platform = :ios, '6.0'
   s.summary  = 'Improved Facebook profile picture view.'
   s.homepage = 'https://github.com/combinatorial/DBFBProfilePictureView'
   s.license  = 'Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)'
