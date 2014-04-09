@@ -13,6 +13,8 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking', '~> 1.3.1'
   s.dependency 'Facebook-iOS-SDK', '>= 3.5.1'
   s.framework    = 'QuartzCore', 'MobileCoreServices', 'SystemConfiguration'
+  
+  s.compiler_flags = '-DUSE_AFNETWORKING_2'
 
   s.prefix_header_contents = <<-EOS
     #import <SystemConfiguration/SystemConfiguration.h>
